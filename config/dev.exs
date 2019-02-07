@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :digitaldrawer, Digitaldrawer.Repo,
-  username: "talha",
-  password: "1q2w3e4r5t",
+  username: "postgres",
+  password: "postgres",
   database: "digitaldrawer_dev",
   hostname: "localhost",
   pool_size: 10

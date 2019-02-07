@@ -27,7 +27,7 @@ config :phoenix, :json_library, Jason
 
 config :digitaldrawer, Digitaldrawer.Guardian,
   issuer: "digitaldrawer",
-  secret_key: "90g9hIYQSUZnFETEc9DpNyGgVNMOtRMYIRo9EB31Nin7jVqcu9rS6BzdkP+GnH1P"
+  secret_key: "Add Your Secret Key Using mix phx.gen.secret"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
