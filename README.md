@@ -1,5 +1,5 @@
-# Digitaldrawer
-
+# Elixir Phoenix Guradian React js
+its initial Configuration project with guardian token auth with React
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
