@@ -1,8 +1,8 @@
-defmodule DigitaldrawerWeb.UserControllerTest do
-  use DigitaldrawerWeb.ConnCase
+defmodule ApppWeb.UserControllerTest do
+  use ApppWeb.ConnCase
 
-  alias Digitaldrawer.Accounts
-  alias Digitaldrawer.Accounts.User
+  alias Appp.Accounts
+  alias Appp.Accounts.User
 
   @create_attrs %{
     age: 42,

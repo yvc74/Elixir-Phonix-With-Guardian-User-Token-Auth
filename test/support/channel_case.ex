@@ -1,4 +1,4 @@
-defmodule DigitaldrawerWeb.ChannelCase do
+defmodule ApppWeb.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.
@@ -21,15 +21,15 @@ defmodule DigitaldrawerWeb.ChannelCase do
       use Phoenix.ChannelTest
 
       # The default endpoint for testing
-      @endpoint DigitaldrawerWeb.Endpoint
+      @endpoint ApppWeb.Endpoint
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(Digitaldrawer.Repo)
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(Appp.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(Digitaldrawer.Repo, {:shared, self()})
+      Ecto.Adapters.SQL.Sandbox.mode(Appp.Repo, {:shared, self()})
     end
 
     :ok

@@ -1,3 +1,3 @@
-defmodule DigitaldrawerWeb.PageViewTest do
-  use DigitaldrawerWeb.ConnCase, async: true
+defmodule ApppWeb.PageViewTest do
+  use ApppWeb.ConnCase, async: true
 end

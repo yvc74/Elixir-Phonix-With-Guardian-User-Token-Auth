@@ -1,5 +1,5 @@
-defmodule DigitaldrawerWeb.PageControllerTest do
-  use DigitaldrawerWeb.ConnCase
+defmodule ApppWeb.PageControllerTest do
+  use ApppWeb.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get(conn, "/")

@@ -1,7 +1,7 @@
-defmodule DigitaldrawerWeb.FakeControllerTest do
-  use DigitaldrawerWeb.ConnCase
+defmodule ApppWeb.FakeControllerTest do
+  use ApppWeb.ConnCase
 
-  alias Digitaldrawer.JustFake
+  alias Appp.JustFake
 
   @create_attrs %{age: 42, name: "some name"}
   @update_attrs %{age: 43, name: "some updated name"}

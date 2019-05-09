@@ -1,10 +1,10 @@
-defmodule Digitaldrawer.JustFakeTest do
-  use Digitaldrawer.DataCase
+defmodule Appp.JustFakeTest do
+  use Appp.DataCase
 
-  alias Digitaldrawer.JustFake
+  alias Appp.JustFake
 
   describe "fakes" do
-    alias Digitaldrawer.JustFake.Fake
+    alias Appp.JustFake.Fake
 
     @valid_attrs %{age: 42, name: "some name"}
     @update_attrs %{age: 43, name: "some updated name"}

@@ -1,4 +1,4 @@
-defmodule Digitaldrawer.Repo.Migrations.CreateUsers do
+defmodule Appp.Repo.Migrations.CreateUsers do
   use Ecto.Migration
 
   def change do

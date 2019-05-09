@@ -7,15 +7,15 @@
 # General application configuration
 use Mix.Config
 
-config :digitaldrawer,
-  ecto_repos: [Digitaldrawer.Repo]
+config :appp,
+  ecto_repos: [Appp.Repo]
 
 # Configures the endpoint
-config :digitaldrawer, DigitaldrawerWeb.Endpoint,
+config :appp, ApppWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "FIGx/ul1hIHtr0hWn0z79id+02MZyCODBWknKdIdu+IJ5rWkgmEMhGM9129yAhDS",
-  render_errors: [view: DigitaldrawerWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Digitaldrawer.PubSub, adapter: Phoenix.PubSub.PG2]
+  render_errors: [view: ApppWeb.ErrorView, accepts: ~w(html json)],
+  pubsub: [name: Appp.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
 config :logger, :console,
@@ -25,8 +25,8 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-config :digitaldrawer, Digitaldrawer.Guardian,
-  issuer: "digitaldrawer",
+config :appp, Appp.Guardian,
+  issuer: "appp",
   secret_key: "Add Your Secret Key Using mix phx.gen.secret"
 
 # Import environment specific config. This must remain at the bottom

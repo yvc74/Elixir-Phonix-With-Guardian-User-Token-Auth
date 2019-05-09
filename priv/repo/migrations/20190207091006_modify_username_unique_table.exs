@@ -1,4 +1,4 @@
-defmodule Digitaldrawer.Repo.Migrations.ModifyUsernameUniqueTable do
+defmodule Appp.Repo.Migrations.ModifyUsernameUniqueTable do
   use Ecto.Migration
 
   def change do

@@ -1,10 +1,10 @@
-defmodule Digitaldrawer.AccountsTest do
-  use Digitaldrawer.DataCase
+defmodule Appp.AccountsTest do
+  use Appp.DataCase
 
-  alias Digitaldrawer.Accounts
+  alias Appp.Accounts
 
   describe "users" do
-    alias Digitaldrawer.Accounts.User
+    alias Appp.Accounts.User
 
     @valid_attrs %{age: 42, email: "some email", password_hash_one: "some password_hash_one", password_hash_two: "some password_hash_two", username: "some username"}
     @update_attrs %{age: 43, email: "some updated email", password_hash_one: "some updated password_hash_one", password_hash_two: "some updated password_hash_two", username: "some updated username"}
